@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Alex Morgan — Student &amp; Designer</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+	<style>body{font-family:'DM Sans',sans-serif}h1,h2,h3{font-family:'Playfair Display',serif}</style>
+</head>
+<body class="bg-stone-50 text-stone-900 antialiased">
+	<header class="sticky top-0 z-10 border-b border-stone-200 bg-stone-50/90 backdrop-blur">
+		<nav class="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 sm:px-8" aria-label="Main navigation">
+			<a href="#home" class="text-lg font-bold tracking-tight">ZAM<span class="text-emerald-800">.</span></a>
+			<div class="flex items-center gap-5 text-sm font-medium sm:gap-8">
+				<a href="#about" class="transition hover:text-emerald-800">About</a>
+				<a href="#work" class="transition hover:text-emerald-800">Work</a>
+				<a href="#contact" class="rounded-full bg-stone-900 px-4 py-2 text-white transition hover:bg-emerald-800">Say hello</a>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<section id="home" class="mx-auto grid min-h-[75vh] max-w-6xl items-center gap-12 px-5 py-16 sm:px-8 md:grid-cols-[1.15fr_0.85fr] md:py-24">
+			<div>
+				<p class="mb-5 text-sm font-semibold uppercase tracking-[0.2em] text-emerald-800">Student · Designer · Curious mind</p>
+				<h1 class="max-w-2xl text-5xl font-semibold leading-tight tracking-tight sm:text-6xl lg:text-7xl">Building useful things with <span class="text-emerald-800">thoughtful design.</span></h1>
+				<p class="mt-6 max-w-xl text-lg leading-8 text-stone-600">Hi, I’m Zawad—a computer science student who loves turning good ideas into clear, friendly digital experiences.</p>
+				<div class="mt-9 flex flex-wrap gap-3">
+					<a href="#work" class="rounded-full bg-emerald-800 px-6 py-3 text-sm font-semibold text-white transition hover:bg-stone-900">Explore my work <span aria-hidden="true">↗</span></a>
+					<a href="#about" class="rounded-full border border-stone-300 px-6 py-3 text-sm font-semibold transition hover:border-emerald-800 hover:text-emerald-800">A little about me</a>
+				</div>
+			</div>
+			<div class="relative mx-auto w-full max-w-sm">
+				<div class="aspect-[4/5] overflow-hidden rounded-[2rem] bg-emerald-100">
+					<img src="https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Sunlit green leaves" class="h-full w-full object-cover">
+				</div>
+				<div class="absolute -bottom-5 -left-5 rounded-2xl bg-white px-5 py-4 shadow-lg shadow-stone-900/10">
+					<p class="text-xs font-semibold uppercase tracking-widest text-emerald-800">Currently</p>
+					<p class="mt-1 text-sm font-medium">Learning, making, growing 🌱</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="about" class="border-y border-stone-100 bg-white py-20 sm:py-24">
+			<div class="mx-auto grid max-w-6xl gap-10 px-5 sm:px-8 md:grid-cols-2 md:items-start">
+				<div><p class="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-800">A bit about me</p><h2 class="mt-4 text-4xl font-semibold leading-tight sm:text-5xl">People first.<br>Pixels second.</h2></div>
+				<div class="text-base leading-8 text-stone-600">
+					<p>I’m a student of 3rd semester interested in the space where technology meets everyday life. I enjoy collaborating, asking better questions, and making complicated ideas feel simple.</p>
+					<p class="mt-5">Away from my desktop, you’ll find me sketching in a notebook, exploring a new place where I can get fresh air, or taking the long way home.</p>
+					<div class="mt-7 flex flex-wrap gap-2"><span class="rounded-full bg-stone-100 px-4 py-2 text-sm">UI design</span><span class="rounded-full bg-stone-100 px-4 py-2 text-sm">Frontend</span><span class="rounded-full bg-stone-100 px-4 py-2 text-sm">Research</span><span class="rounded-full bg-stone-100 px-4 py-2 text-sm">Teamwork</span></div>
+				</div>
+			</div>
+		</section>
+
+		<section id="work" class="mx-auto max-w-6xl px-5 py-20 sm:px-8 sm:py-24">
+			<div class="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
+				<div><p class="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-800">Selected projects</p><h2 class="mt-3 text-4xl font-semibold sm:text-5xl">A few things I’ve made.</h2></div>
+				<p class="max-w-sm text-sm leading-6 text-stone-600">Small projects, thoughtful details, and plenty of room to keep learning.</p>
+			</div>
+			<div class="mt-10 grid gap-5 md:grid-cols-2">
+				<article class="group rounded-3xl bg-emerald-50 p-7 transition hover:-translate-y-1 sm:p-9">
+					<p class="text-sm font-semibold text-emerald-800">01 / Student life</p><h3 class="mt-10 text-3xl font-semibold">Campus Compass</h3>
+					<p class="mt-3 max-w-md leading-7 text-stone-600">A simple guide to help new students find useful places, events, and their way around campus.</p>
+					<a href="#contact" class="mt-6 inline-flex items-center gap-2 text-sm font-semibold transition group-hover:text-emerald-800">Ask me about it <span aria-hidden="true">→</span></a>
+				</article>
+				<article class="group rounded-3xl bg-amber-50 p-7 transition hover:-translate-y-1 sm:p-9">
+					<p class="text-sm font-semibold text-emerald-800">02 / Better habits</p><h3 class="mt-10 text-3xl font-semibold">Little by Little</h3>
+					<p class="mt-3 max-w-md leading-7 text-stone-600">A calm habit tracker concept focused on celebrating steady progress over perfect streaks.</p>
+					<a href="#contact" class="mt-6 inline-flex items-center gap-2 text-sm font-semibold transition group-hover:text-emerald-800">Ask me about it <span aria-hidden="true">→</span></a>
+				</article>
+			</div>
+		</section>
+
+		<section id="contact" class="bg-stone-900 px-5 py-16 text-white sm:px-8 sm:py-20">
+			<div class="mx-auto flex max-w-6xl flex-col justify-between gap-8 sm:flex-row sm:items-center">
+				<div><p class="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-200">Have a good idea?</p><h2 class="mt-3 text-4xl font-semibold sm:text-5xl">Let’s make something meaningful.</h2></div>
+				<a href="mailto:hello@example.com" class="inline-flex w-fit items-center gap-3 rounded-full bg-white px-6 py-3 text-sm font-semibold text-stone-900 transition hover:bg-emerald-100">Get in touch <span aria-hidden="true">↗</span></a>
+			</div>
+		</section>
+	</main>
+	<footer class="mx-auto flex max-w-6xl flex-col gap-2 px-5 py-6 text-sm text-stone-500 sm:flex-row sm:justify-between sm:px-8">
+		<p>© 2025 Zawad Abrar Mahmud. Made with care.</p><a href="#home" class="font-medium transition hover:text-emerald-800">Back to top ↑</a>
+	</footer>
+</body>
+</html>
